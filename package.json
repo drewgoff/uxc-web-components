@@ -1,0 +1,20 @@
+{
+  "name": "drew-component-library",
+  "version": "1.0.0",
+  "description": "My personal library of web components",
+  "main": "index.js",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch",
+    "clean": "find . -name 'node_modules' -exec rm -rf '{}' +",
+    "test": "web-test-runner test/**/*.test.js --node-resolve",
+    "test:watch": "web-test-runner test/**/*.test.js --node-resolve --watch"
+  },
+  "author": "Drew Goff",
+  "license": "MIT",
+  "devDependencies": {
+    "@esm-bundle/chai": "^4.3.4-fix.0",
+    "@web/dev-server": "^0.1.33",
+    "@web/dev-server-esbuild": "^0.3.2",
+    "@web/test-runner": "^0.14.0"
+  }
+}

@@ -1,0 +1,1 @@
+import './uxc-footer.js';

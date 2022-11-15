@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="description" content="Drew Goff's footer web component">
+	<meta name="keywords" content="web component, footer, Drew Goff, drew goff">
+	<meta name="author" content="Drew Goff">
+	
+	<title>UXC Footer</title>
+	
+	<link href="/index.css" rel="stylesheet" />
+
+  </head>
+  
+  <body>
+	  
+  	<uxc-footer>
+	  
+	  <!-- Menu Section -->
+	  <span slot="menu-title">Menu</span>
+	  
+	   <span slot="footer-menu-item">
+		<a class="current" href="index.html">Home</a>
+	   </span>
+	   
+	   <span slot="footer-menu-item">
+	    <a href="courses.html">Courses</a>
+	   </span>
+	   
+	   <span slot="footer-menu-item">
+	    <a href="about.html">About</a>
+	   </span>
+	   
+	   <span slot="footer-menu-item">
+	    <a href="login.html">Login</a>
+	   </span>
+	   
+
+	  <!-- Social Section -->
+	  <span slot="social-connect">Connect</span>
+	  
+	   <span slot="social-icons">
+	    <a href="https://github.com/drewgoff">
+		 <github-icon></github-icon>
+	    </a>
+	   </span>
+	   
+	   <span slot="social-icons">
+	    <a href="https://codepen.io/drew_goff/#" target="__blank">
+	     <codepen-icon></codepen-icon>
+		</a>
+	   </span>
+		
+	   <span slot="social-icons">
+		<a href="https://www.linkedin.com/in/drew-goff-916779b/" target="__blank">
+	     <linkedin-icon></linkedin-icon>
+		</a>
+	   </span>
+	   
+	   <span slot="social-icons">
+		<a href="https://www.instagram.com/drew.goff.81/" target="__blank">
+		 <instagram-icon></instagram-icon>
+		</a>
+	   </span>
+		   
+	   <span slot="social-icons">
+		<a href="https://www.facebook.com/drew.goff.33" target="__blank">
+		 <facebook-icon></facebook-icon>
+		</a>
+	   </span>	   
+	   	 
+	</uxc-footer> 
+	  
+    <script type="module" src="./index.js"></script>
+  </body>
+</html> 
